@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="../assets/main.css">
+</head>
+<body>
+    <div class="w-full h-screen">
+        <div class="faq-container pt-[60px] p-5 pb-[100px]">
+            <p class="text-[1.8rem] font-[600]">Frequently Asked Questions</p>
+            <div class="wrapper flex flex-col gap-[30px] mt-[30px]">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../assets/data/faq.js"></script>
+<script>
+    let wrapper = document.querySelector('.wrapper')
+
+    wrapper.innerHTML = FAQ_DATA?.map((item,i)=>{
+        return `
+            <div class="faq">
+                <p class="title text-[1.2rem] font-[600]">${i+1}. ${item.title}</p>
+                ${item.para.map(innerItem => `
+                    <p class="desc my-4 text-[1rem] font-[500] text-[rgba(0,0,0,0.8)]">${innerItem}</p>
+                `).join('')}
+            </div>
+        `
+    }).join('')
+</script>
+</html>

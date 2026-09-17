@@ -1,0 +1,89 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    padding: 20px;
+    padding-top: 60px;
+    height: 100%;
+}
+.wrapper .title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.wrapper .desc{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #86868B;
+}
+.headerBox{
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 30px;
+}
+
+.list-box .title{
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #1e1e1e;
+}
+
+.list-box{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 30px;
+}
+
+.list-capsule{
+    display: inline-flex;
+    padding: 5px 10px 5px 0;
+}
+
+
+.legal-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.list{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #86868B;
+}
+
+.legal-title{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #1D1D1F;
+    
+}
+
+.legal-desc{
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333333;
+}
+
+
+.details{
+    margin-top: 30px;
+    padding-bottom: 80px;
+}
+.details .title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1D1D1F
+}
+
+.details .label{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.details .label span{
+    font-weight: 600;
+}
