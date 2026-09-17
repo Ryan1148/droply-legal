@@ -52,7 +52,7 @@ const TERMS_DATA = [
         para:[
             "Depending on the features you use, Droply may allow you to provide information such as your name, age, gender, weight, wake-up time, bedtime, and water intake.",
             "Our collection and use of information is explained in our Privacy Policy.",
-            "You can review the Privacy Policy here: ryan1148.github.io/droply-legal/privacy-policy"
+            'Please read our full <a class="text-[#008fff]" target="_" href="ryan1148.github.io/droply-legal/privacy-policy">Privacy Policy</a> to understand how we collect, use, and protect your information',
         ]
     },
     {
